@@ -1,0 +1,32 @@
+[
+    {
+        "id": "blacklisted_groups",
+        "name": "Blacklisted Groups",
+        "description": "CUSA's official list of blacklisted Roblox groups, including the reason, who issued the blacklist, and whether it's appealable. Use this to answer questions like 'is this group blacklisted?'",
+        "url": "https://docs.google.com/document/d/1MNKj6MfGyQ8UTkz7vWvKO5wrxX0dsccCnq45964ftK4/edit"
+    },
+    {
+        "id": "constitution",
+        "name": "Constitution",
+        "description": "The Constitution of Clockwork's United States Army (CUSA), establishing the Legislative, Executive, and Judicial branches and their powers. Use this for questions about CUSA's governance structure, branches of government, and constitutional rights/procedures.",
+        "url": "https://docs.google.com/document/d/11axNu5H9d8hKA8-BUPXDCnG9p1t1z47wXr5cNPNr3ew/edit?usp=sharing"
+    },
+    {
+        "id": "code_of_justice",
+        "name": "Code of Justice",
+        "description": "CUSA's Code of Justice, covering definitions, judicial sentencing, and legal procedures. Use this for questions about laws, charges, sentencing, and judicial process within CUSA.",
+        "url": "https://docs.google.com/document/d/1FFtEigyyuud7ciwF221bienGjqJUkXO9FJRhJUYl-jk/edit?usp=sharing"
+    },
+    {
+        "id": "scotus_verdict_guidelines",
+        "name": "SCOTUS Verdict Guidelines",
+        "description": "Department of Justice verdict guidelines listing suggested sentences for local and federal articles of the Code of Justice. The Code of Justice remains the legally binding document if the two conflict. Use this for questions about specific verdicts, sentencing ranges, or punishments for a charge.",
+        "url": "https://docs.google.com/document/d/1J0ARwx4pKi0DXhXJrgNAxODZFILSm0o1qu-wMKOUFxA/edit"
+    },
+    {
+        "id": "legal_glossary",
+        "name": "Glossary of Court Legal Terms",
+        "description": "Definitions and plain-language explanations of legal terms used in CUSA's court/judicial system (e.g. acquittal, adjudicate). Use this when a user asks what a legal term means.",
+        "url": "https://docs.google.com/document/d/1Gi0FIvaMH12e86ve_mDjBD3_QtiMSiU0gv3KH5Nccz4/edit"
+    }
+]
