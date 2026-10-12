@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Effective date: September 30, 2026**
+**Effective date: October 12, 2026**
 
 This policy explains what information is collected when you use this Discord bot (referred to as "the bot"), why it is collected, and what you can ask us to do with it. It applies to the bot's stored data and to the AI features it provides.
 
@@ -32,6 +32,8 @@ If you use these features, the content you provide is stored:
 ### Moderation information
 The bot reads moderation channels to help track staff actions. This can include the name of the moderator, the person or account being actioned, the reason given, the punishment applied, and any notes or proof attached when a claim is reviewed. These records contain whatever free text staff wrote, and are treated as sensitive.
 
+In addition, the bot's automated moderation reviews messages in monitored servers for scams, phishing and other rule-breaking content. When a message is flagged, an encrypted snippet of the flagged message is kept with the review record so staff can investigate it before deciding on a report.
+
 ### Activity information
 To operate statistics and moderation tools, the bot records activity metadata. This includes which commands were used, reaction, voice and typing activity, join and leave events, nickname changes, role changes, message activity such as whether a message had attachments or embeds, and automod matches.
 
@@ -42,6 +44,9 @@ If you link a Roblox account, the bot stores that link and any verification stat
 
 ### Usage counters
 If you use the AI features, the bot keeps a per-day count of how many AI messages you have used, so that daily limits can be enforced.
+
+### Risk scoring
+To support staff investigations, the bot computes advisory risk and anomaly scores for members from the records described above. These scores are estimates derived from activity metadata and moderation history, are accompanied by a numerical summary of the inputs used, and are never used to take an action automatically.
 
 ## 3. How we use your information
 
@@ -54,11 +59,15 @@ We use collected information to:
 - Protect the operation and security of the bot
 - Comply with valid legal obligations and Discord's platform rules
 
-We do not use your information for advertising, profiling for advertising, or any automated decision-making that produces legal or similarly significant effects.
+We do not use your information for advertising or profiling for advertising. Automated and AI-generated output — such as moderation flags, background checks, investigations and risk scores — is advisory: it is reviewed by staff, and moderation actions that affect you are carried out by staff, never by an automated system alone.
+
+We do not use message content or AI conversations to train machine-learning models. The bot's internal models are trained only on aggregated activity statistics and on bundled non-personal public datasets.
+
+Where required by applicable law, we rely on your consent for features you opt into and on our legitimate interests in operating, moderating and securing the bot.
 
 ## 4. Encryption
 
-Content that could contain your words — AI conversations and memories, quotes, reminders, to-dos, tag content, AFK reasons, moderation reasons and notes, command parameters, and matched automod content — is encrypted before it is written to storage, using authenticated encryption (AES-256-GCM).
+Content that could contain your words — AI conversations and memories, quotes, reminders, to-dos, tag content, AFK reasons, moderation reasons and notes, flagged message snippets used for moderation review, command parameters, and matched automod content — is encrypted before it is written to storage, using authenticated encryption (AES-256-GCM).
 
 Identifiers, timestamps, counters, event types, scores and status values are **not** encrypted, because they are required for indexing, joining and lookups. Separating them from content means that the most sensitive material is unreadable without the encryption keys.
 
@@ -67,17 +76,18 @@ Encryption keys are held separately from the stored data and are not stored in t
 ## 5. Who else can see your information
 
 - **Discord.** The bot operates on Discord and receives the information Discord provides in order to function. Your use of the bot is also subject to Discord's own Privacy Policy and Terms of Service.
-- **NVIDIA.** AI features are provided using AI models hosted by NVIDIA. When you use an AI feature, your message is transmitted to that provider so a reply can be generated. Your message is sent for the purpose of producing that reply only.
+- **NVIDIA.** AI features are provided using AI models hosted by NVIDIA. When you use an AI feature, the messages you send, any attachments you ask the bot to describe, and — for the investigation and background-check tools — summaries of stored records and public data may be transmitted to that provider so the feature can work. This information is sent for the purpose of completing your request only, and may be processed on servers located outside your country.
+- **Search.** Web-search tools run through the bot's self-hosted search service, which forwards queries to public search engines to return results. Queries are sent only when a search feature is used and are not used for profiling.
 - **Service providers and legal authorities.** We may disclose information if we believe in good faith that it is required by law, necessary to protect the safety of the bot, its users, or the public, or necessary to comply with a valid legal process.
 
 We do not sell your information. We do not share it for anyone else's marketing.
 
 ## 6. Data retention
 
-We keep information for as long as the bot is operating and the information is needed for the purpose it was collected.
+We keep information for as long as the bot is operating and the information is needed for the purpose it was collected, and we review the information we hold periodically so it is not kept longer than needed.
 
 - Activity records, AI conversations, AI memories, quotes, reminders, to-dos, tags, and moderation records are retained until you or a server administrator request deletion.
-- Per-day AI usage counters accumulate one entry per day you use the AI features and are not deleted automatically.
+- Per-day AI usage counters accumulate one entry per day you use the AI features; entries are kept only while needed to enforce daily limits and are pruned as they age.
 - The bot takes a daily database backup and retains only the most recent backup.
 
 Because a backup is retained, information deleted on request may still be present in that backup until it is replaced by the next backup. Backups are not restored for ordinary operation.
@@ -92,6 +102,8 @@ You can exercise these rights by contacting us. In particular you may ask us to:
 - Correct information that is inaccurate
 - Delete information we hold about you
 - Delete information held for you within a server, where you have the authority to request that
+
+If you are the subject of a staff background check or investigation carried out with the bot, you can exercise these same rights for the information compiled about you.
 
 To request deletion of information tied to a specific Discord account, provide the account's user ID and state clearly that you want the data deleted. If you are not the account holder, we will ask you to demonstrate that you are a server administrator for that account before acting.
 
