@@ -1,6 +1,6 @@
 # Terms of Service
 
-**Effective date: October 12, 2026**
+**Effective date: November 22, 2026**
 
 These terms govern your use of the Discord bot "Boots" (referred to as "the bot"). By adding, using, or continuing to use the bot, you agree to these terms. If you do not agree, please do not use the bot or simply don't participate in the CUSA servers where it is used.
 
@@ -46,7 +46,7 @@ You are responsible for how you use what the bot tells you.
 
 ## 7. Moderation and investigations
 
-The bot keeps moderation records and may assist staff with investigations. These records and reports are compiled from activity data and from what staff deliberately post, and are treated as described in the Privacy Policy. Reports are advisory and are reviewed by staff before any action is taken; the bot never takes moderation action on its own.
+The bot keeps moderation records and may assist staff with investigations. These records and reports are compiled from activity data, from reply and mention relationships and writing-style features derived from messages in servers where the bot is present, and from what staff deliberately post. They are treated as described in the Privacy Policy. Reports are advisory and are reviewed by staff before any action is taken; the bot never takes moderation action on its own.
 
 ## 8. Your content
 
